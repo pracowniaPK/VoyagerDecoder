@@ -63,5 +63,5 @@ class Application(tk.Frame):
 root = tk.Tk()
 root.title("voyager decoder")
 app = Application(root, "voy.wav")
-tk.mainloop()
-
+root.mainloop()
+root.destroy()
